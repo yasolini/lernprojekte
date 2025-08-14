@@ -15,7 +15,7 @@ Zwei kleine, aber Beispiele mit etwas mehr Struktur.
 
 ### Einkaufsliste
 
-**Ziele/Learnings:** Formular-Handling, DOM-Updates, Daten persistieren, Tastatur-Bedienbarkeit.
+**Ziele/Learnings:** Formular-Handling,
 
 ### Notendurchschnitt
 
