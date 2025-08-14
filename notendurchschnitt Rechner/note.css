@@ -1,0 +1,19 @@
+/* Stil für den Container */
+#container {
+  width: 50%;
+}
+#div2 {
+  width: 500%;
+}
+
+/* Stil für die Inputfelder */
+input {
+  /* Füge Abstand (padding) hinzu, damit die Felder voneinander getrennt sind */
+  padding: 5px;
+
+  /* Setze die Breite der Felder auf 45%, damit sie nebeneinander passen */
+  width: 20%;
+
+  /* Setze display auf inline-block oder inline-flex, um sie nebeneinander anzuzeigen */
+  display: inline-block;
+}

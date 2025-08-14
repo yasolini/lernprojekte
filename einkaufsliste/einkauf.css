@@ -1,0 +1,106 @@
+/* Reset some default browser styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Styling for the header */
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Styling for the form container */
+#formular {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Styling for form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Styling for input elements */
+input[type="search"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Styling for the button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the main container */
+#hauptdiv {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Styling for the list items */
+#hauptdiv ul {
+  list-style: none;
+  padding: 0;
+}
+
+#hauptdiv li {
+  margin-bottom: 5px;
+}
+button.minus,
+button.plus {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 5px; /* Add some margin between the buttons */
+}
+
+button.plus:hover,
+button.minus:hover {
+  background-color: #0056b3;
+}
+
+/* Style the buttons to be inline */
+button.plu,
+button.minus {
+  display: inline-block;
+}
